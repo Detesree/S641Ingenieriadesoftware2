@@ -1,4 +1,4 @@
-public interface Converter {
+public interface ConverterI {
 
 
     public void makeLine();

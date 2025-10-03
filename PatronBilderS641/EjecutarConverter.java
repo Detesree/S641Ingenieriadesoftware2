@@ -3,7 +3,7 @@ public class EjecutarConverter {
         
         //Creacion de los obj tipo Converter 
 
-        Converter objASCII = new ASCIIConverter();
+        Converter objASCII = new ASCIIConverterI();
         Converter objPostScript = new PostScriptConverter();
         Converter objPDF = new PDFConverter();
 

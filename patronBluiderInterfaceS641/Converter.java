@@ -1,4 +1,4 @@
-public class Converter {
+public class implements Converter {
 
     private String document;
 

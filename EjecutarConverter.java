@@ -10,6 +10,10 @@ public class EjecutarConverter {
         Reader objLector1 = new Reader("LINE", objASCII);
         Reader objLector2 = new Reader("TABLE", objPDF);
         Reader objLector3 = new Reader("PARAGRAPH", objPostScript);
+
+        objLector1.parseInput();
+        objLector2.parseInput();
+        objLector3.parseInput();
         
         
 
